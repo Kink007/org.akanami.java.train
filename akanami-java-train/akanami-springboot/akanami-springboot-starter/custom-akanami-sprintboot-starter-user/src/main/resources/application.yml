@@ -1,0 +1,4 @@
+akanami:
+  starter:
+    enable: true
+    name: akanami

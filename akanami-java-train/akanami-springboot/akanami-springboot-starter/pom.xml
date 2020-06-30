@@ -14,6 +14,7 @@
     <modules>
         <module>custom-akanami-springboot-starter</module>
         <module>custom-akanami-springboot-starter-autoconfigure</module>
+        <module>custom-akanami-sprintboot-starter-user</module>
     </modules>
 
 

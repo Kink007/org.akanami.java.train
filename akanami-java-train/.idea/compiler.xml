@@ -14,7 +14,11 @@
         <module name="base-reflection" />
         <module name="custom-akanami-springboot-starter" />
         <module name="custom-akanami-springboot-starter-autoconfigure" />
+        <module name="custom-akanami-sprintboot-starter-user" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="custom-akanami-springboot-starter-user" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
