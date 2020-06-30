@@ -3,16 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>akanami-java-train</artifactId>
+        <artifactId>akanami-springboot</artifactId>
         <groupId>org.akanami</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-springboot</artifactId>
+    <artifactId>akanami-springboot-starter</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>akanami-springboot-annotation</module>
-        <module>akanami-springboot-starter</module>
+        <module>custom-akanami-springboot-starter</module>
+        <module>custom-akanami-springboot-starter-autoconfigure</module>
     </modules>
+
+
 </project>

@@ -12,6 +12,8 @@
         <module name="akanami-springboot-annotation" />
         <module name="base-grammar" />
         <module name="base-reflection" />
+        <module name="custom-akanami-springboot-starter" />
+        <module name="custom-akanami-springboot-starter-autoconfigure" />
       </profile>
     </annotationProcessing>
   </component>
