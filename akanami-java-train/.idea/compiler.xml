@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="akanami-data-jdbc" />
+        <module name="akanami-data-jpa" />
+        <module name="akanami-data-mybatis" />
         <module name="akanami-springboot-annotation" />
         <module name="base-grammar" />
         <module name="base-reflection" />

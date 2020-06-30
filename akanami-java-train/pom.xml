@@ -11,6 +11,7 @@
     <modules>
         <module>akanami-java-base</module>
         <module>akanami-springboot</module>
+        <module>akanami-data</module>
     </modules>
 
     <properties>
