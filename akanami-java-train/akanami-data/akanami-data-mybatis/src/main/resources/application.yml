@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://49.234.38.24:3306/aka?characterEncoding=utf8&useSSL=false
+    username: root
+    password: password
+mybatis:
+  mapper-locations: classpath:mybatis/mappers/**
+  config-location: classpath:mybatis/mybatis-config.xml

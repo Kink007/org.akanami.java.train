@@ -9,6 +9,7 @@
         <module name="akanami-data-jdbc" />
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
+        <module name="akanami-leetcode-algorithm" />
         <module name="akanami-springboot-annotation" />
         <module name="base-grammar" />
         <module name="base-reflection" />
