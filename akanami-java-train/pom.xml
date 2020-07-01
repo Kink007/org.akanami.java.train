@@ -13,6 +13,8 @@
         <module>akanami-springboot</module>
         <module>akanami-data</module>
         <module>akanami-leetcode</module>
+        <module>akanami-bigdata</module>
+        <module>akanami-microservice</module>
     </modules>
 
     <properties>
@@ -82,4 +84,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
