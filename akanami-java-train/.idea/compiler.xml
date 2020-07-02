@@ -13,6 +13,9 @@
         <module name="akanami-leetcode-algorithm" />
         <module name="akanami-microservice-dubbo-consumer" />
         <module name="akanami-microservice-dubbo-provider" />
+        <module name="akanami-microservice-eureka-client-consumer" />
+        <module name="akanami-microservice-eureka-client-provider" />
+        <module name="akanami-microservice-eureka-server" />
         <module name="akanami-springboot-annotation" />
         <module name="base-grammar" />
         <module name="base-reflection" />
@@ -22,6 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="akanami-microservice-euraka-server" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
