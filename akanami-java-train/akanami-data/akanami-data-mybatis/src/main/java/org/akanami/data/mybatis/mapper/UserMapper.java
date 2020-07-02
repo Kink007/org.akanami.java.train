@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
+import java.awt.*;
 import java.util.ArrayList;
 
 @Mapper
@@ -20,6 +21,7 @@ public interface UserMapper {
 
     @Insert({" insert into t_sys_user (name, birth) values (#{name}, #{birth}) " })
     void add(User user);
+
 //
 //    User update(User user);
 //

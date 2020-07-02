@@ -1,5 +1,7 @@
 package org.akanami.data.mybatis.mapper;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.akanami.data.mybatis.model.User;
 import org.junit.Assert;
 import org.junit.Test;
@@ -49,5 +51,15 @@ public class UserMapperTest {
         ArrayList<User> users = this.userMapper.getAll();
         Assert.assertNotNull(users);
         Assert.assertTrue(users.size() > 0);
+    }
+
+    @Test
+    public void selectByPage() {
+        PageHelper.startPage(1, 10);
+        ArrayList<User> users = this.userMapper.getAll();
+        PageInfo<User> pageInfo = new PageInfo<>(users);
+
+        Assert.assertNotNull(pageInfo);
+        Assert.assertTrue(pageInfo.getTotal() > 0);
     }
 }

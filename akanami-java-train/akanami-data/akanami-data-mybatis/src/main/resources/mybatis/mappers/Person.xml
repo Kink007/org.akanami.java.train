@@ -12,4 +12,7 @@
     <select id="getAll" resultType="org.akanami.data.mybatis.model.Person">
       select * from t_sys_person
     </select>
+    <select id="selectByPage" resultType="org.akanami.data.mybatis.model.Person">
+      select * from t_sys_person
+    </select>
 </mapper>

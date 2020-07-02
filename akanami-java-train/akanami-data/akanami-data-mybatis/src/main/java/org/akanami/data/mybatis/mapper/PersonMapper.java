@@ -12,4 +12,6 @@ public interface PersonMapper {
     Person getPersonByName(String name);
 
     ArrayList<Person> getAll();
+
+    ArrayList<Person> selectByPage();
 }
