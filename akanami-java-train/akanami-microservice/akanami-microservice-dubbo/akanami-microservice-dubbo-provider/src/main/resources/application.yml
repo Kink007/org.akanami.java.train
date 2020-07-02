@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: akanami-microservice-dubbo-provider
+
+dubbo:
+  application:
+    name: akanami-microservice-dubbo-provider
+  registry:
+    address: zookeeper://49.234.38.24:2181
+  scan:
+    base-packages: org.akanami.microservice.dubbo.provider.service
