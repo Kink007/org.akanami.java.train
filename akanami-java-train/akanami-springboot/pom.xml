@@ -14,5 +14,6 @@
     <modules>
         <module>akanami-springboot-annotation</module>
         <module>akanami-springboot-starter</module>
+        <module>akanami-springboot-banner</module>
     </modules>
 </project>
