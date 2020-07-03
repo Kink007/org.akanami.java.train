@@ -13,6 +13,8 @@
         <module name="akanami-data-mybatis" />
         <module name="akanami-leetcode-algorithm" />
         <module name="akanami-microserivce-zookeeper-providers" />
+        <module name="akanami-microservice-consul-consumer" />
+        <module name="akanami-microservice-consul-provider" />
         <module name="akanami-microservice-dubbo-consumer" />
         <module name="akanami-microservice-dubbo-provider" />
         <module name="akanami-microservice-eureka-client-consumer" />

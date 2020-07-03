@@ -1,0 +1,11 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: akanami-microservice-consul-provider
+  cloud:
+    consul:
+      host: 49.234.38.24
+      port: 8599
+      discovery:
+        service-name: ${spring.application.name}
