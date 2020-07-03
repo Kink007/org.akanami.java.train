@@ -1,0 +1,6 @@
+org.springframework.boot.SpringApplicationRunListener=\
+org.akanami.springboot.runlistener.ExSpringApplicationRunListener
+
+org.springframework.context.ApplicationListener=\
+org.akanami.springboot.listener.ExApplicationListener,\
+org.akanami.springboot.listener.ExApplicationStartingEventListener

@@ -21,6 +21,7 @@
         <module name="akanami-microservice-zookeeper-consumer" />
         <module name="akanami-springboot-annotation" />
         <module name="akanami-springboot-banner" />
+        <module name="akanami-springboot-extentions-applicationstart" />
         <module name="base-grammar" />
         <module name="base-reflection" />
         <module name="custom-akanami-springboot-starter" />
