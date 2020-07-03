@@ -3,19 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>akanami-java-train</artifactId>
+        <artifactId>akanami-microservice</artifactId>
         <groupId>org.akanami</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-microservice</artifactId>
+    <artifactId>akanami-microservice-zookeeper</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>akanami-microservice-dubbo</module>
-        <module>akanami-microservice-eureka</module>
-        <module>akanami-microservice-zookeeper</module>
+
+        <module>akanami-microservice-zookeeper-consumer</module>
+        <module>akanami-microserivce-zookeeper-providers</module>
     </modules>
-
-
 </project>

@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-euraka/akanami-microservice-euraka-server/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-euraka/pom.xml" />
+        <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-zookeeper/akanami-microservice-zookeeper-provider/pom.xml" />
       </set>
     </option>
   </component>

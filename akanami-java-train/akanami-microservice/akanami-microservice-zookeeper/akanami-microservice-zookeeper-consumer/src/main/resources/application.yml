@@ -1,0 +1,8 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: akanami-microserivce-zookeeper-consumer
+  cloud:
+    zookeeper:
+      connect-string: 49.234.38.24:2181

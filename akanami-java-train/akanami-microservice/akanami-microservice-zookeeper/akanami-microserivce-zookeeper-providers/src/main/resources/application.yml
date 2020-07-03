@@ -1,0 +1,8 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: akanami-microserivce-zookeeper-providers
+  cloud:
+    zookeeper:
+      connect-string: 49.234.38.24:2181

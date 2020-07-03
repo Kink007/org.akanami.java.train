@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,11 +12,13 @@
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
         <module name="akanami-leetcode-algorithm" />
+        <module name="akanami-microserivce-zookeeper-providers" />
         <module name="akanami-microservice-dubbo-consumer" />
         <module name="akanami-microservice-dubbo-provider" />
         <module name="akanami-microservice-eureka-client-consumer" />
         <module name="akanami-microservice-eureka-client-provider" />
         <module name="akanami-microservice-eureka-server" />
+        <module name="akanami-microservice-zookeeper-consumer" />
         <module name="akanami-springboot-annotation" />
         <module name="base-grammar" />
         <module name="base-reflection" />
@@ -26,6 +29,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="akanami-microservice-euraka-server" target="1.8" />
+      <module name="akanami-microservice-zookeeper-provider" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
