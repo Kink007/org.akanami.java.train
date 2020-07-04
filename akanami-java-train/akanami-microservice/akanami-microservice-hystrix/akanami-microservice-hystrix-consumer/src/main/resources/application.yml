@@ -1,0 +1,15 @@
+server:
+  port: 9042
+spring:
+  application:
+    name: akanami-microservice-hystrix-consumer
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8091/eureka/
+
+feign:
+  hystrix:
+    enabled: true
