@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/akanami-microservice/akanami-microserice-openfeign/akanami-microservice-openfeign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/akanami-microservice/akanami-microserice-openfeign/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-euraka/akanami-microservice-euraka-server/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-euraka/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-zookeeper/akanami-microservice-zookeeper-provider/pom.xml" />

@@ -1,6 +1,6 @@
-package org.akanami.microserivce.openfeign.controller;
+package org.akanami.microservice.openfeign.controller;
 
-import org.akanami.microserivce.openfeign.rpc.ProviderService;
+import org.akanami.microservice.openfeign.rpc.ProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

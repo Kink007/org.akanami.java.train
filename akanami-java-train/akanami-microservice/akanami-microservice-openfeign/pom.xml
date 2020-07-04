@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-microserice-openfeign</artifactId>
+    <artifactId>akanami-microservice-openfeign</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>akanami-microservice-openfeign-consumer</module>

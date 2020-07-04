@@ -34,6 +34,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="akanami-microserice-openfeign" target="1.8" />
       <module name="akanami-microservice-euraka-server" target="1.8" />
       <module name="akanami-microservice-zookeeper-provider" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />

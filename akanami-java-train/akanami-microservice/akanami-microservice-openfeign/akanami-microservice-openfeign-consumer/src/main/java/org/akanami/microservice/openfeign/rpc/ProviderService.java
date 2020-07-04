@@ -1,4 +1,4 @@
-package org.akanami.microserivce.openfeign.rpc;
+package org.akanami.microservice.openfeign.rpc;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

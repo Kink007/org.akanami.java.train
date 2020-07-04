@@ -18,6 +18,7 @@
         <module>akanami-microservice-consul</module>
         <module>akanami-microservice-ribbon</module>
         <module>akanami-microserice-openfeign</module>
+        <module>akanami-microservice-openfeign</module>
     </modules>
 
 
