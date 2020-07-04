@@ -20,6 +20,7 @@
         <module name="akanami-microservice-eureka-client-consumer" />
         <module name="akanami-microservice-eureka-client-provider" />
         <module name="akanami-microservice-eureka-server" />
+        <module name="akanami-microservice-ribbon-loadbalance" />
         <module name="akanami-microservice-zookeeper-consumer" />
         <module name="akanami-springboot-annotation" />
         <module name="akanami-springboot-banner" />

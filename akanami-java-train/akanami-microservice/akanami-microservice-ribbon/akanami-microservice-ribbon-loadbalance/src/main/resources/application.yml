@@ -1,0 +1,15 @@
+server:
+  port: 9021
+
+spring:
+  application:
+    name: akanami-microservice-ribbon-loadbalance
+
+eureka:
+  instance:
+    hostname: 127.0.0.1 #服务注册中心地址
+  client:
+    # register-with-eureka: false #是否向服务中心注册自己
+    # fetch-registry: false #是否检索服务
+    service-url: #服务注册中心的配置内容，指定服务注册中心的位置
+      defaultZone: http://127.0.0.1:8091/eureka/
