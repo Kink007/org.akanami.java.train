@@ -20,6 +20,7 @@
         <module name="akanami-microservice-eureka-client-consumer" />
         <module name="akanami-microservice-eureka-client-provider" />
         <module name="akanami-microservice-eureka-server" />
+        <module name="akanami-microservice-hystrix-circuitbreaker" />
         <module name="akanami-microservice-hystrix-consumer" />
         <module name="akanami-microservice-hystrix-provider" />
         <module name="akanami-microservice-openfeign-consumer" />
@@ -38,6 +39,7 @@
     <bytecodeTargetLevel>
       <module name="akanami-microserice-openfeign" target="1.8" />
       <module name="akanami-microservice-euraka-server" target="1.8" />
+      <module name="akanami-microservice-hystrix-circlebreak" target="1.8" />
       <module name="akanami-microservice-zookeeper-provider" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />
     </bytecodeTargetLevel>

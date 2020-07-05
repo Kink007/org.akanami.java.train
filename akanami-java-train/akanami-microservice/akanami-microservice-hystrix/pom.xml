@@ -14,6 +14,8 @@
     <modules>
         <module>akanami-microservice-hystrix-provider</module>
         <module>akanami-microservice-hystrix-consumer</module>
+        <module>akanami-microservice-hystrix-circlebreak</module>
+        <module>akanami-microservice-hystrix-circuitbreaker</module>
     </modules>
 
 
