@@ -20,6 +20,7 @@
         <module>akanami-microserice-openfeign</module>
         <module>akanami-microservice-openfeign</module>
         <module>akanami-microservice-hystrix</module>
+        <module>akanami-microservice-gateway</module>
     </modules>
 
 

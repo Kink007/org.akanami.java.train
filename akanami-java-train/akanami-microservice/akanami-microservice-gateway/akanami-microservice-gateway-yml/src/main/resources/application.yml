@@ -1,0 +1,27 @@
+server:
+  port: 9501
+spring:
+  application:
+    name: akanami-microservice-gateway-yml
+  cloud:
+    gateway:
+      routes:
+        - id: akanami-microservice-eureka-client-provider    # 路由的id，没有固定规则，但要求唯一，建议配合服务名
+          uri: http://localhost:8092  #匹配后提供的服务路由地址 //配置后，可直接使用 http://localhost:9051/hello 调用 eureka-provider服务
+          predicates:
+            - Path=/**    #断言，路径相匹配的进行路由
+
+#          - id: provider    # 路由的id，没有固定规则，但要求唯一，建议配合服务名
+#            uri: http://localhost:8001  #匹配后提供的服务路由地址
+#            predicates:
+#              - Path=/payment/get/**    #断言，路径相匹配的进行路由
+
+eureka:
+  instance:
+    hostname: akanami-microservice-gateway-yml
+  client:
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://127.0.0.1:8091/eureka/
+

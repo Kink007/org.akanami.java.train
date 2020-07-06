@@ -20,6 +20,8 @@
         <module name="akanami-microservice-eureka-client-consumer" />
         <module name="akanami-microservice-eureka-client-provider" />
         <module name="akanami-microservice-eureka-server" />
+        <module name="akanami-microservice-gateway-eurekayml" />
+        <module name="akanami-microservice-gateway-yml" />
         <module name="akanami-microservice-hystrix-circuitbreaker" />
         <module name="akanami-microservice-hystrix-consumer" />
         <module name="akanami-microservice-hystrix-provider" />
