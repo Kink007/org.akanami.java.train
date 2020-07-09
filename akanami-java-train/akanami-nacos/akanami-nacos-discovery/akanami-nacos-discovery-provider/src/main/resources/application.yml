@@ -1,0 +1,10 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: akanami-nacos-discovery-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.234.38.24:8848
+

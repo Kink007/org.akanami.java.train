@@ -1,0 +1,10 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: akanami-nacos-discovery-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.234.38.24:8848
+
