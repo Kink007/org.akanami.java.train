@@ -8,3 +8,8 @@ spring:
       discovery:
         server-addr: 49.234.38.24:8848
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

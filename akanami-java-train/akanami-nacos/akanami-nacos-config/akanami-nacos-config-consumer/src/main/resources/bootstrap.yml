@@ -1,0 +1,12 @@
+server:
+  port: 10011
+spring:
+  application:
+    name: akanami-nacos-config-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.234.38.24:8848
+      config:
+        server-addr: 49.234.38.24:8848
+        file-extension: yaml
