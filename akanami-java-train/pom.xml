@@ -16,6 +16,8 @@
         <module>akanami-bigdata</module>
         <module>akanami-microservice</module>
         <module>akanami-nacos</module>
+        <module>akanami-spring</module>
+        <module>akanami-jvm</module>
     </modules>
 
     <properties>
@@ -33,6 +35,15 @@
                 <version>4.13</version>
                 <scope>test</scope>
             </dependency>
+
+            <!-- spring -->
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring</artifactId>
+                <version>5.2.6.RELEASE</version>
+            </dependency>
+
 
             <!-- springboot -->
             <dependency>
@@ -205,13 +216,26 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<executable>true</executable>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
                 <configuration>
-                    <executable>true</executable>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>

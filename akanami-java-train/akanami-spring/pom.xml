@@ -9,12 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-nacos</artifactId>
+    <artifactId>akanami-spring</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>akanami-nacos-discovery</module>
-        <module>akanami-nacos-config</module>
-        <module>akanami-nacos-sentinel</module>
+        <module>akanami-spring-ioc</module>
+        <module>akanami-spring-study-xml</module>
     </modules>
 
 

@@ -11,6 +11,7 @@
         <module name="akanami-data-jdbc" />
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
+        <module name="akanami-jvm-demo" />
         <module name="akanami-leetcode-algorithm" />
         <module name="akanami-microserivce-zookeeper-providers" />
         <module name="akanami-microservice-consul-consumer" />
@@ -31,6 +32,8 @@
         <module name="akanami-nacos-config-consumer" />
         <module name="akanami-nacos-discovery-consumer" />
         <module name="akanami-nacos-discovery-provider" />
+        <module name="akanami-nacos-sentinel-provider" />
+        <module name="akanami-spring-study-xml" />
         <module name="akanami-springboot-annotation" />
         <module name="akanami-springboot-banner" />
         <module name="akanami-springboot-extentions-applicationstart" />
@@ -46,6 +49,7 @@
       <module name="akanami-microservice-euraka-server" target="1.8" />
       <module name="akanami-microservice-hystrix-circlebreak" target="1.8" />
       <module name="akanami-microservice-zookeeper-provider" target="1.8" />
+      <module name="akanami-spring-ioc" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>

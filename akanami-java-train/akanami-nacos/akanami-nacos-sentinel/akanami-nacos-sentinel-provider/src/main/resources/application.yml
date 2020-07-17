@@ -1,0 +1,18 @@
+server:
+  port: 10041
+spring:
+  application:
+    name: akanami-nacos-sentinel-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.234.38.24:8848
+    sentinel:
+      transport:
+        dashboard: 49.234.38.24:8858
+        port: 8791
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

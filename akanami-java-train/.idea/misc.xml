@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-euraka/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-hystrix/akanami-microservice-hystrix-circlebreak/pom.xml" />
         <option value="$PROJECT_DIR$/akanami-microservice/akanami-microservice-zookeeper/akanami-microservice-zookeeper-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/akanami-spring/akanami-spring-ioc/pom.xml" />
       </set>
     </option>
   </component>

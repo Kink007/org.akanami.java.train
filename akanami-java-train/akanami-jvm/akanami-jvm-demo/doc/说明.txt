@@ -1,0 +1,6 @@
+主要是根据视频 https://www.bilibili.com/video/BV1PJ411n7xZ?p=42
+学习java jvm 的相关知识
+
+javap -v xxx.class 显示字节码命令
+或
+选中 .class 文件  使用 View -> show bytecode with jclasslib 查看
