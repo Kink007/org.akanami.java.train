@@ -12,6 +12,7 @@
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
         <module name="akanami-jvm-demo" />
+        <module name="akanami-jvm-jol" />
         <module name="akanami-leetcode-algorithm" />
         <module name="akanami-microserivce-zookeeper-providers" />
         <module name="akanami-microservice-consul-consumer" />

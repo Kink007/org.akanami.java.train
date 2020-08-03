@@ -7,4 +7,5 @@
     <import resource="classpath:/demo01/beans/**" />
 
     <bean id="mockBean" class="org.akanami.spring.study.mock.MockBean" />
+    <bean id="mockBean2" class="org.akanami.spring.study.mock.MockBean2" />
 </beans>
