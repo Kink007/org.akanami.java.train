@@ -11,6 +11,7 @@
         <module name="akanami-data-jdbc" />
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
+        <module name="akanami-designpatterns-gof23" />
         <module name="akanami-jvm-demo" />
         <module name="akanami-jvm-jol" />
         <module name="akanami-leetcode-algorithm" />

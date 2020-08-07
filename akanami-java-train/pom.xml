@@ -18,6 +18,7 @@
         <module>akanami-nacos</module>
         <module>akanami-spring</module>
         <module>akanami-jvm</module>
+        <module>akanami-designpatterns</module>
     </modules>
 
     <properties>
