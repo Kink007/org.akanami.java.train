@@ -39,6 +39,7 @@
         <module name="akanami-springboot-annotation" />
         <module name="akanami-springboot-banner" />
         <module name="akanami-springboot-extentions-applicationstart" />
+        <module name="akanami.io.socket" />
         <module name="base-grammar" />
         <module name="base-reflection" />
         <module name="custom-akanami-springboot-starter" />
