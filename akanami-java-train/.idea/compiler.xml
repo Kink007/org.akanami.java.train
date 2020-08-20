@@ -40,6 +40,7 @@
         <module name="akanami-springboot-banner" />
         <module name="akanami-springboot-extentions-applicationstart" />
         <module name="akanami.io.socket" />
+        <module name="akanami.threads.threadpools" />
         <module name="base-grammar" />
         <module name="base-reflection" />
         <module name="custom-akanami-springboot-starter" />
@@ -53,6 +54,7 @@
       <module name="akanami-microservice-hystrix-circlebreak" target="1.8" />
       <module name="akanami-microservice-zookeeper-provider" target="1.8" />
       <module name="akanami-spring-ioc" target="1.8" />
+      <module name="akanami-thread" target="1.8" />
       <module name="custom-akanami-springboot-starter-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
