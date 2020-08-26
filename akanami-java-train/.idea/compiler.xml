@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="akanami-bigdata-hadoop-hdfs" />
+        <module name="akanami-collections" />
         <module name="akanami-data-jdbc" />
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
