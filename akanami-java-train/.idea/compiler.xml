@@ -40,6 +40,7 @@
         <module name="akanami-springboot-banner" />
         <module name="akanami-springboot-extentions-applicationstart" />
         <module name="akanami.io.socket" />
+        <module name="akanami.juc" />
         <module name="akanami.threads.threadpools" />
         <module name="base-grammar" />
         <module name="base-reflection" />
