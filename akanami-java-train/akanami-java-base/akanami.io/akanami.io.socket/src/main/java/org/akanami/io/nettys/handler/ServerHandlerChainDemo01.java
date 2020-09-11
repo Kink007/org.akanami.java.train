@@ -7,7 +7,6 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.util.CharsetUtil;
 
 public class ServerHandlerChainDemo01 {
@@ -47,7 +46,7 @@ public class ServerHandlerChainDemo01 {
 
     class ChainFirstHandler extends ChannelInboundHandlerAdapter {
 
-        ByteBuf localBuffer = Unpooled.buffer(1024);
+        ByteBuf localBuffer = Unpooled.compositeBuffer(1024);
 
         @Override
         public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
