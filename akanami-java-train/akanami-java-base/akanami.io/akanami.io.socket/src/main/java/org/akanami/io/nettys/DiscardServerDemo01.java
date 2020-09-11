@@ -43,6 +43,7 @@ public class DiscardServerDemo01 {
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
 
+
             ChannelFuture future = bootstrap.bind(SERVER_PORT).sync();
 
             future.channel().closeFuture().sync();
