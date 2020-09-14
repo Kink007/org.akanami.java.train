@@ -19,5 +19,6 @@ public class jwtJJWTDemo01 {
                 .parseClaimsJws(TOKEN);
 
         System.out.println(claimsJws);
+
     }
 }
