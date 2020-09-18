@@ -9,12 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-spring</artifactId>
+    <artifactId>akanami-core</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>akanami-spring-ioc</module>
-        <module>akanami-spring-study-xml</module>
-        <module>akanami-spring-lifecycle</module>
+        <module>akanami-core-api</module>
     </modules>
 
 

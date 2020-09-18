@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="akanami-bigdata-hadoop-hdfs" />
         <module name="akanami-collections" />
+        <module name="akanami-core-api" />
         <module name="akanami-data-jdbc" />
         <module name="akanami-data-jpa" />
         <module name="akanami-data-mybatis" />
@@ -38,6 +39,7 @@
         <module name="akanami-nacos-discovery-consumer" />
         <module name="akanami-nacos-discovery-provider" />
         <module name="akanami-nacos-sentinel-provider" />
+        <module name="akanami-spring-lifecycle" />
         <module name="akanami-spring-study-xml" />
         <module name="akanami-springboot-annotation" />
         <module name="akanami-springboot-banner" />

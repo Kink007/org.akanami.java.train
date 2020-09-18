@@ -19,6 +19,7 @@
         <module>akanami-spring</module>
         <module>akanami-jvm</module>
         <module>akanami-designpatterns</module>
+        <module>akanami-core</module>
     </modules>
 
     <properties>
