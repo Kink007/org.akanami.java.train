@@ -39,6 +39,7 @@
         <module name="akanami-nacos-discovery-consumer" />
         <module name="akanami-nacos-discovery-provider" />
         <module name="akanami-nacos-sentinel-provider" />
+        <module name="akanami-spring-core" />
         <module name="akanami-spring-lifecycle" />
         <module name="akanami-spring-study-xml" />
         <module name="akanami-springboot-annotation" />
