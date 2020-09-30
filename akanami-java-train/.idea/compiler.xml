@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="akanami-base" />
         <module name="akanami-bigdata-hadoop-hdfs" />
         <module name="akanami-collections" />
         <module name="akanami-core-api" />
@@ -19,6 +20,8 @@
         <module name="akanami-jvm-jol" />
         <module name="akanami-jwt" />
         <module name="akanami-leetcode-algorithm" />
+        <module name="akanami-logger-log4j" />
+        <module name="akanami-logger-slf4j" />
         <module name="akanami-microserivce-zookeeper-providers" />
         <module name="akanami-microservice-consul-consumer" />
         <module name="akanami-microservice-consul-provider" />

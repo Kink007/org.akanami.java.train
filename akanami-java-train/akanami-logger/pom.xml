@@ -9,16 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>akanami-java-base</artifactId>
+    <artifactId>akanami-logger</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>base-grammar</module>
-        <module>base-reflection</module>
-        <module>akanami.io</module>
-        <module>akanami.thread</module>
-        <module>akanami.threads</module>
-        <module>akanami-collections</module>
-        <module>akanami-base</module>
+        <module>akanami-logger-slf4j</module>
+        <module>akanami-logger-log4j</module>
     </modules>
+
 
 </project>
