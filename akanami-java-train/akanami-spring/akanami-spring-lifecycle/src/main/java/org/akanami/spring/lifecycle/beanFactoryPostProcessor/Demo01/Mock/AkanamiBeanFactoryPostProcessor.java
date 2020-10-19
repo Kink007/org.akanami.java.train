@@ -8,5 +8,6 @@ public class AkanamiBeanFactoryPostProcessor implements BeanFactoryPostProcessor
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
         //configurableListableBeanFactory.
+
     }
 }
