@@ -61,6 +61,11 @@ public class NormalAspect {
         System.out.println("before pointcut");
     }
 
+    @Before("execution(public * sayBye(..))")
+    public void beforeSayBye() {
+        System.out.println("call beforeSayBye");
+    }
+
     @Pointcut("within(org.akanami.spring.aop.aspectj.annotation.demo01.service..*)")
     public void withinCut() {
 
