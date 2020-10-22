@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_akanami-microservice-zookeeper" default="compile.module.akanami-microservice-zookeeper">
+  <dirname property="module.akanami-microservice-zookeeper.basedir" file="${ant.file.module_akanami-microservice-zookeeper}"/>
+  
+  <property name="module.jdk.home.akanami-microservice-zookeeper" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.akanami-microservice-zookeeper" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.akanami-microservice-zookeeper" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.akanami-microservice-zookeeper" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="akanami-microservice-zookeeper.output.dir" value="${module.akanami-microservice-zookeeper.basedir}/target/classes"/>
+  <property name="akanami-microservice-zookeeper.testoutput.dir" value="${module.akanami-microservice-zookeeper.basedir}/target/test-classes"/>
+  
+  <path id="akanami-microservice-zookeeper.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="akanami-microservice-zookeeper.module.production.classpath">
+    <path refid="${module.jdk.classpath.akanami-microservice-zookeeper}"/>
+  </path>
+  
+  <path id="akanami-microservice-zookeeper.runtime.production.module.classpath">
+    <pathelement location="${akanami-microservice-zookeeper.output.dir}"/>
+  </path>
+  
+  <path id="akanami-microservice-zookeeper.module.classpath">
+    <path refid="${module.jdk.classpath.akanami-microservice-zookeeper}"/>
+    <pathelement location="${akanami-microservice-zookeeper.output.dir}"/>
+  </path>
+  
+  <path id="akanami-microservice-zookeeper.runtime.module.classpath">
+    <pathelement location="${akanami-microservice-zookeeper.testoutput.dir}"/>
+    <pathelement location="${akanami-microservice-zookeeper.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.akanami-microservice-zookeeper">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.akanami-microservice-zookeeper">
+    <patternset refid="excluded.from.module.akanami-microservice-zookeeper"/>
+  </patternset>
+  
+  
+  <target name="compile.module.akanami-microservice-zookeeper" depends="compile.module.akanami-microservice-zookeeper.production,compile.module.akanami-microservice-zookeeper.tests" description="Compile module akanami-microservice-zookeeper"/>
+  
+  <target name="compile.module.akanami-microservice-zookeeper.production" depends="register.custom.compilers" description="Compile module akanami-microservice-zookeeper; production classes"/>
+  
+  <target name="compile.module.akanami-microservice-zookeeper.tests" depends="register.custom.compilers,compile.module.akanami-microservice-zookeeper.production" description="compile module akanami-microservice-zookeeper; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.akanami-microservice-zookeeper" description="cleanup module">
+    <delete dir="${akanami-microservice-zookeeper.output.dir}"/>
+    <delete dir="${akanami-microservice-zookeeper.testoutput.dir}"/>
+  </target>
+</project>
