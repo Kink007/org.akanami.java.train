@@ -20,7 +20,7 @@ public class demo01 {
         //并在本地etc/host添加  datanode的hostname的ip映射
         conf.set("dfs.client.use.datanode.hostname", "true");
 
-        byte[] buff = "hello world".getBytes();
+        byte[] buff = "hello|world".getBytes();
         FileSystem hdfs = FileSystem.get(conf);
         Path path = new Path("/demo01/hello.txt");
         FSDataOutputStream outputStream = null;
