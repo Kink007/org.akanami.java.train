@@ -21,6 +21,7 @@
         <module>akanami-designpatterns</module>
         <module>akanami-core</module>
         <module>akanami-logger</module>
+        <module>akanami-nosql</module>
     </modules>
 
     <properties>
@@ -278,6 +279,15 @@
                 <groupId>jaxen</groupId>
                 <artifactId>jaxen</artifactId>
                 <version>LATEST</version>
+            </dependency>
+
+
+            <!-- redis -->
+            <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>3.3.0</version>
             </dependency>
 
 
